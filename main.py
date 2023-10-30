@@ -21,7 +21,7 @@ class QRCode:
             self.qr.add_data(user_input)
             qr_image = self.qr.make_image(
                 fill_color=foreground_color, back_color=background_color)
-            qr.save(filename)
+            qr_image.save(filename)
 
             print(f'Succesfully created! ({filename})')
 
