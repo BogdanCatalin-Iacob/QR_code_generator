@@ -35,7 +35,7 @@ def main():
     '''
     myqr = QRCode(size=30, border=2)
     myqr.create_qr(
-        'sample.png', foreground_color='black', background_color= 'green')
+        'sample.png', foreground_color='black', background_color='green')
 
 
 if __name__ == '__main__':
