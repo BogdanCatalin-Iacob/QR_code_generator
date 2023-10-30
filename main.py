@@ -5,6 +5,9 @@ import qrcode
 
 
 class QRCode:
+    '''
+    Define the qr code
+    '''
     def __init__(self, size: int, border: int):
         self.qr = qrcode.QRCode(box_size=size, border=border)
 
@@ -24,3 +27,16 @@ class QRCode:
 
         except Exception as err:
             print(f'Error {err}')
+
+
+def main():
+    '''
+    create the qr code with specific settings
+    '''
+    myqr = QRCode(size=30, border=2)
+    myqr.create_qr(
+        'sample.png', foreground_color='black', background_color= 'green')
+
+
+if __name__ == '__main__':
+    main()
