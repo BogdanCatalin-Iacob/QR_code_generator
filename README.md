@@ -8,7 +8,7 @@ The qr code is color customizable by setting colors to forground or background. 
 
 This project was developed using a [VS Code](https://code.visualstudio.com/). The code was committed to [Git](https://git-scm.com) and pushed to [GitHub](https://github.com) using the terminal.
 
-The project was started by navigating to [GitHub](https://github.com) and creating a new repository by clicking `New` button. Under 'Repository name' I input 'password_generator' and then clicked 'Create repository'.
+The project was started by navigating to [GitHub](https://github.com) and creating a new repository by clicking `New` button. Under 'Repository name' I input 'QR_code_generator' and then clicked 'Create repository'.
 
 I opened VS Code and initialized directory 'qr-code-generator': 
 ```
